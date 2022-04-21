@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+nav{
+  height: 20vh;
+  width: 100vw;
+  background: lightgreen;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.btnGroup{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+#adoptContainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center; 
+  width: 100vw;
+  height: 100vh;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  border: none;
+  background: aliceblue;
+
+}
+.card-title{
+  text-align: center;
+}
+.card img{
+  height: auto;
+  width: 75%;
+  overflow: hidden;
+}
+.card ul{
+  background: aliceblue;
+}
+.buttonBody{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
