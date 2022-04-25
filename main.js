@@ -245,13 +245,13 @@ const renderToDom = (divId, textToRender) => {
 // My HTML Component Functions (Nothing is Global)
 const filterButtons = () => {
   let domString = `
-  <<div class="d-flex flex-wrap justify-content-between my-3">
-  <button class="btn btn-secondary btn-lg buttonRow" id="music">Music</button>
-  <button class="btn btn-secondary btn-lg buttonRow" id="javascript">Javascript</button>
-  <button class="btn btn-secondary btn-lg buttonRow" id="css">CSS</button>
-  <button class="btn btn-secondary btn-lg buttonRow" id="html">HTML</button>
+  <div class="d-flex flex-wrap justify-content-between my-3">
+  <button class="btn btn-secondary btn-lg buttonRow" id="cat">Cat</button>
+  <button class="btn btn-secondary btn-lg buttonRow" id="dog">Dogs</button>
+  <button class="btn btn-secondary btn-lg buttonRow" id="dino">Dinos</button>
+  <button class="btn btn-secondary btn-lg buttonRow" id="other">Others</button>
   <button class="btn btn-secondary btn-lg buttonRow" id="favorite">Favorites</button>
-  <button class="btn btn-secondary btn-lg buttonRow" id="clear">Clear Filter</button>
+  <button class="btn btn-secondary btn-lg buttonRow" id="clear">Clear</button>
 </div>
   `;
   renderToDom("#btnGroup", domString);
@@ -261,7 +261,12 @@ const petsOnDom = (array) => {
   let domString = "";
 
   for (const box of array) {
-    domString += `<div class="card" style="width: 18rem;">
+    domString += `
+    <div class="card" style="width: 18rem;">
+    <ul>
+    <i class="fa-regular fa-heart"></i>
+    <i class="fa-solid fa-heart"></i>
+    </ul>
   <h5 class="card-title">${box.name}</h5>
   <img src="${box.imageUrl}" class="card-img-top" alt="...">
   <div class="card-body">
@@ -271,20 +276,64 @@ const petsOnDom = (array) => {
     <li class="list-group-item">${box.color} ${box.type}</li>
   </ul>
   <div class="buttonBody card-body">
-  <button type="button" id="adopt" class="btn btn-primary">ADOPT!</button>
-  <button type="button" id="more" class="btn btn-info">More</button>
-  <button type="button" id="remove" class="btn btn-danger">X</button>
+  <button type="button" id="adopt--${box.name}" class="btn btn-primary">ADOPT!</button>
+  <button type="button" id="more--${box.name}" class="btn btn-info">More</button>
+  <button type="button" id="remove--${box.name}" class="btn btn-danger">X</button>
   </div>
 </div>`;
   }
-  renderToDom("#adoptConatiner", domString);
+  renderToDom("#adoptContainer", domString);
 };
 
+// Adding Event Listeners
+const eventListeners = () => {
+  document.querySelector("#btnGroup").addEventListener("click", (e) => {
+    if (e.target.id === "clear") {
+      petsOnDom(pets);
+    } else if (e.target.id === 'btnGroup') {
+      petsOnDom(pets);
+    }else if (e.target.id === "favorite") {
+      const favs = pets.filter((taco) => taco.favorite === true);
+      petsOnDom(favs);
+    } else if (e.target.id) {
+      const topic = pets.filter((taco) => taco.type === e.target.id);
+      console.log(e.target.id);
+      petsOnDom(topic);
+    } 
+  });
 
+  //Adding Buttons to the cards
+  document.querySelector("#adoptContainer").addEventListener("click", (e) => {
+    if (e.target.id) {
+      const [method, name] = e.target.id.split("--");
 
-//Iniatilizing Application
-const startUp = () =>{
-  filterButtons()
-  petsOnDom(pets)
+      const index = pets.findIndex((taco) => taco.name === name);
 
+      if (e.target.id.includes("adopt")) {
+        console.log(`You're trying to adopt ${index}`);
+        let result = confirm("Are you ready to take on this responsibility?");
+        if (confirm === true) {
+          pets.pop(index)
+          petsOnDom(pets)
+        }
+      }
+      if (e.target.id.includes("more")) {
+        console.log("more of this type");
+      }
+      if (e.target.id.includes("remove")) {
+        console.log("delete this animal");
+        confirm("Are You Sure");
+        pets.splice(index, 1);
+        petsOnDom(pets);
+      }
+    }
+  });
 };
+//Initializing Application
+const startUp = () => {
+  filterButtons();
+  petsOnDom(pets);
+  eventListeners();
+};
+
+startUp();
