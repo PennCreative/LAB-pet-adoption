@@ -3,19 +3,17 @@ body{
   flex-flow: column nowrap;
   justify-content: space-between;
 }
-nav{
-  height: 20vh;
+.mainHead{
+  height: 10em;
   width: 100vw;
   background: lightgreen;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: center;
 }
-.btnGroup{
+#btnGroup{
   width: 100vw;
+  height: 20vh;
   display: flex;
   justify-content: space-around;
+  background: lightcoral;
 }
 #adoptContainer{
   display: flex;
@@ -24,6 +22,7 @@ nav{
   align-items: center; 
   width: 100vw;
   height: 100vh;
+  background: lightblue;
 }
 
 .card{
@@ -52,4 +51,5 @@ nav{
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
+  background: lightgoldenrodyellow;
 }

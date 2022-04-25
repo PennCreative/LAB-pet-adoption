@@ -1,9 +1,3 @@
-const adoptContainer = document.querySelector("#adoptContainer");
-const selectDogs = document.querySelector("#dogBtn");
-const selectDinos = document.querySelector("#dinoBtn");
-const selectCats = document.querySelector("#catBtn");
-const selectAll = document.querySelector("#allBtn");
-
 const pets = [
   {
     name: "Dusty",
@@ -242,113 +236,55 @@ const pets = [
   },
 ];
 
-let domString = "";
+// rendering to the dom
+const renderToDom = (divId, textToRender) => {
+  const selectedElement = document.querySelector(divId);
+  selectedElement.innerHTML = textToRender;
+};
 
-// for (const box of pets) {
-//   domString += `<div class="card" style="width: 18rem;">
-//     <h5 class="card-title">${box.name}</h5>
-//     <img src="${box.imageUrl}" class="card-img-top" alt="...">
-//     <div class="card-body">
-//       <p class="card-text">${box.specialSkill}</p>
-//     </div>
-//     <ul class="list-group list-group-flush">
-//       <li class="list-group-item">${box.color} ${box.type}</li>
-//     </ul>
-//     <div class="buttonBody card-body">
-//     <button type="button" id="adopt" class="btn btn-primary">ADOPT!</button>
-//     <button type="button" id="more" class="btn btn-info">More</button>
-//     <button type="button" id="remove" class="btn btn-danger">X</button>
-//     </div>
-//   </div>`;
-// }
+// My HTML Component Functions (Nothing is Global)
+const filterButtons = () => {
+  let domString = `
+  <<div class="d-flex flex-wrap justify-content-between my-3">
+  <button class="btn btn-secondary btn-lg buttonRow" id="music">Music</button>
+  <button class="btn btn-secondary btn-lg buttonRow" id="javascript">Javascript</button>
+  <button class="btn btn-secondary btn-lg buttonRow" id="css">CSS</button>
+  <button class="btn btn-secondary btn-lg buttonRow" id="html">HTML</button>
+  <button class="btn btn-secondary btn-lg buttonRow" id="favorite">Favorites</button>
+  <button class="btn btn-secondary btn-lg buttonRow" id="clear">Clear Filter</button>
+</div>
+  `;
+  renderToDom("#btnGroup", domString);
+};
 
-// adoptContainer.innerHTML = domString;
+const petsOnDom = (array) => {
+  let domString = "";
 
-// for (const animalType of pets) {
-// const dinoArray = []
-//   if (animalType.type === 'dino') {
-//     dinoArray.push(animalType)
-//   } else {
-//     console.log(`Nope. This one is just a dumb ole ${animalType.type}`)
-//   }
-
-// }
-
-const filterAnimal = (e) => {
-  const filterText = e.target.id
-  console.log(filterText)
-
-  const result = filterText === "allBtn" ? pets : pets.filter(pet => pet.type.toLowerCase() === filterText)
-  console.log(result)
-
-  let domString = ''
-  result.forEach((pet) => {
+  for (const box of array) {
     domString += `<div class="card" style="width: 18rem;">
-    <h5 class="card-title">${pet.name}</h5>
-    <img src="${pet.imageUrl}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">${pet.specialSkill}</p>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">${pet.color} ${pet.type}</li>
-    </ul>
-    <div class="buttonBody card-body">
-    <button type="button" id="adopt" class="btn btn-primary">ADOPT!</button>
-    <button type="button" id="more" class="btn btn-info">More</button>
-    <button type="button" id="remove" class="btn btn-danger">X</button>
-    </div>
-  </div>`;
-  })
-  adoptContainer.innerHTML = domString
-}
-
-// const adoptIt = document.querySelector("#adopt");
-// const more = document.querySelector("#more");
-// const removeIt = document.querySelector("#remove");
-
-//ternary statement
-
-// selectDogs.addEventListener("click", (e) => {
-//   console.log(`You click 'Dogs'`);
-//   if (selectDogs.innerHTML === "Dogs") {
-//     selectDogs.innerHTML = "Back";
-//   } else {
-//     selectDogs.innerHTML = "Dogs";
-//   }
-// });
-// selectCats.addEventListener("click", (e) => {
-//   console.log(`You click 'Cats'`);
-//   if (selectCats.innerHTML === "Cats") {
-//     selectCats.innerHTML = "Back";
-//   } else {
-//     selectCats.innerHTML = "Cats";
-//   }
-// });
-// selectDinos.addEventListener("click", (e) => {
-//   console.log(`You click 'Dinos'`);
-//   if (selectDinos.innerHTML === "Dinos") {
-//     selectDinos.innerHTML = "Back";
-//   } else {
-//     selectDinos.innerHTML = "Dinos";
-//   }
-// });
-// adoptIt.addEventListener("click", (e) => {
-//   console.log(`You click 'Adopt'`);
-//   if (adoptIt.innerHTML === "ADOPT!") {
-//     adoptIt.innerHTML = "YAY!";
-//   } else {
-//     adoptIt.innerHTML = "ADOPT!";
-//   }
-// });
-// more.addEventListener("click", (e) => {
-//   console.log(`You wanna see more`);
-// });
-// removeIt.addEventListener("click", (e) => {
-//   console.log(`You're about to delete this post`);
-// });
+  <h5 class="card-title">${box.name}</h5>
+  <img src="${box.imageUrl}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">${box.specialSkill}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">${box.color} ${box.type}</li>
+  </ul>
+  <div class="buttonBody card-body">
+  <button type="button" id="adopt" class="btn btn-primary">ADOPT!</button>
+  <button type="button" id="more" class="btn btn-info">More</button>
+  <button type="button" id="remove" class="btn btn-danger">X</button>
+  </div>
+</div>`;
+  }
+  renderToDom("#adoptConatiner", domString);
+};
 
 
-selectCats.addEventListener('click', filterAnimal)
-selectDogs.addEventListener('click', filterAnimal)
-selectDinos.addEventListener('click', filterAnimal)
-selectAll.addEventListener('click', filterAnimal)
+
+//Iniatilizing Application
+const startUp = () =>{
+  filterButtons()
+  petsOnDom(pets)
+
+};
