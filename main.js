@@ -3,7 +3,7 @@ const pets = [
     name: "Dusty",
     color: "Green",
     specialSkill: "Gives sincere apologies.",
-    type: "cat",
+    type: "Cat",
     imageUrl:
       "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg",
     favorite: false,
@@ -13,7 +13,7 @@ const pets = [
     color: "Brown",
     specialSkill:
       "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
-    type: "dino",
+    type: "Dino",
     imageUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7gFTwWnpsh5Higt49cnrPzVV2XaealA-GVBZswahODo679UBc_AIi0qAfvSuKOBLCU0&usqp=CAU",
     favorite: false,
@@ -22,7 +22,7 @@ const pets = [
     name: "Whiskers",
     color: "Yellow",
     specialSkill: "Can prove he is a real man by drinking whiskey.",
-    type: "dino",
+    type: "Dino",
     imageUrl:
       "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
     favorite: false,
@@ -31,7 +31,7 @@ const pets = [
     name: "Coco",
     color: "Black",
     specialSkill: "Burps minimally.",
-    type: "dog",
+    type: "Dog",
     imageUrl: "https://placedog.net/200",
     favorite: false,
   },
@@ -39,7 +39,7 @@ const pets = [
     name: "Spooky",
     color: "Brown",
     specialSkill: "Comfortable in the outdoors for up to eight hours.",
-    type: "cat",
+    type: "Cat",
     imageUrl:
       "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg",
     favorite: false,
@@ -48,7 +48,7 @@ const pets = [
     name: "Tiger",
     color: "Black",
     specialSkill: "Can read (but cannot understand) Hebrew.",
-    type: "dog",
+    type: "Dog",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/7/7e/Basset_Hound_600.jpg",
     favorite: false,
@@ -57,7 +57,7 @@ const pets = [
     name: "Oreo",
     color: "Yellow",
     specialSkill: "Able to stop chewing ice or whistling on request.",
-    type: "cat",
+    type: "Cat",
     imageUrl:
       "https://i.pinimg.com/originals/9d/da/3e/9dda3e5fd2b9886fc3d13ee47f52e8a0.jpg",
     favorite: false,
@@ -66,7 +66,7 @@ const pets = [
     name: "Ginger",
     color: "Grey",
     specialSkill: "Comfortable in the outdoors for up to eight hours.",
-    type: "dino",
+    type: "Dino",
     imageUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlM87klS3OtmBi8tubHb1FeqIf_b9HjBI5Xw&usqp=CAU",
     favorite: false,
@@ -75,7 +75,7 @@ const pets = [
     name: "Sassy",
     color: "Brown",
     specialSkill: "Adept at talking self and others out of fights.",
-    type: "cat",
+    type: "Cat",
     imageUrl:
       "https://tailandfur.com/wp-content/uploads/2015/09/40-Amazing-Cat-Funny-Moment-Pictures-Feature-Image.jpg",
     favorite: false,
@@ -84,7 +84,7 @@ const pets = [
     name: "Sammy",
     color: "Blue",
     specialSkill: "Listens attentively to boring stories.",
-    type: "cat",
+    type: "Cat",
     imageUrl:
       "https://i.pinimg.com/originals/04/54/92/0454926d39eeb420f4f01948e94e9e41.jpg",
     favorite: false,
@@ -93,7 +93,7 @@ const pets = [
     name: "Coco",
     color: "Orange",
     specialSkill: "Can be around food without staring creepily at it.",
-    type: "dino",
+    type: "Dino",
     imageUrl:
       "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NyZXRhY2VvdXMtYW5pbWFscy00YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ==",
     favorite: false,
@@ -102,7 +102,7 @@ const pets = [
     name: "Buster",
     color: "Green",
     specialSkill: "Does not use excessive acronyms.",
-    type: "dog",
+    type: "Dog",
     imageUrl:
       "https://i.pinimg.com/originals/1f/30/8c/1f308c9c108a384b91b39430cc7312e9.jpg",
     favorite: false,
@@ -112,7 +112,7 @@ const pets = [
     color: "Red",
     specialSkill:
       "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
-    type: "dog",
+    type: "Dog",
     imageUrl:
       "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg",
     favorite: false,
@@ -121,7 +121,7 @@ const pets = [
     name: "Samantha",
     color: "Brown",
     specialSkill: "Always up for dessert.",
-    type: "cat",
+    type: "Cat",
     imageUrl:
       "http://3.bp.blogspot.com/-RzIFLsIO-XQ/UFoMLOT66JI/AAAAAAAAVps/JRF98hdA9S8/s640/funny-cat-pictures-016-027.jpg",
     favorite: false,
@@ -130,7 +130,7 @@ const pets = [
     name: "Coco",
     color: "Red",
     specialSkill: "Burps minimally.",
-    type: "cat",
+    type: "Cat",
     imageUrl:
       "http://cathumor.net/wp-content/uploads/2013/12/cat-humor-funny-karate-cat-2.jpg",
     favorite: false,
@@ -139,7 +139,7 @@ const pets = [
     name: "Smokey",
     color: "Brown",
     specialSkill: "Drives at a safe rate of speed in snow or rain.",
-    type: "dino",
+    type: "Dino",
     imageUrl:
       "https://www.screen-idle.com/wp-content/uploads/2020/07/camp-dino-pixa-1-678x381.jpg",
     favorite: false,
@@ -149,7 +149,7 @@ const pets = [
     color: "Yellow",
     specialSkill:
       "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
-    type: "cat",
+    type: "Cat",
     imageUrl: "http://placekitten.com/500",
     favorite: false,
   },
@@ -157,7 +157,7 @@ const pets = [
     name: "Salem",
     color: "Brown",
     specialSkill: "Proficient in air guitar",
-    type: "dino",
+    type: "Dino",
     imageUrl:
       "https://www.si.edu/sites/default/files/styles/social_media/public/newsdesk/press_releases/thumbnail_detail.jpg?itok=C36IoUOR",
     favorite: false,
@@ -166,7 +166,7 @@ const pets = [
     name: "Callie",
     color: "Blue",
     specialSkill: "Listens attentively to boring stories.",
-    type: "dog",
+    type: "Dog",
     imageUrl: "https://placedog.net/200",
     favorite: false,
   },
@@ -174,7 +174,7 @@ const pets = [
     name: "Spooky",
     color: "Black",
     specialSkill: "Uses litter box at appropriate hours.",
-    type: "cat",
+    type: "Cat",
     imageUrl: "http://placekitten.com/500",
     favorite: false,
   },
@@ -182,7 +182,7 @@ const pets = [
     name: "Miss kitty",
     color: "Red",
     specialSkill: "Owns a Nintendo Power Glove.",
-    type: "dino",
+    type: "Dino",
     imageUrl: "http://placekitten.com/500",
     favorite: false,
   },
@@ -190,7 +190,7 @@ const pets = [
     name: "Snuggles",
     color: "Orange",
     specialSkill: "Is comfortable with jokes about his receding hairline.",
-    type: "cat",
+    type: "Cat",
     imageUrl: "http://placekitten.com/200",
     favorite: false,
   },
@@ -198,7 +198,7 @@ const pets = [
     name: "Buddy",
     color: "Red",
     specialSkill: "Enjoys fine wine.",
-    type: "dog",
+    type: "Dog",
     imageUrl:
       "http://1.bp.blogspot.com/-VjM0CmtN-vU/T7YX-LXa09I/AAAAAAAADA0/Vt1oGWEG0lw/s1600/sheepdog+border+collie+shakes+off+water+funny+picture+photo+pulling+faces+raspberry+tongue.jpg",
     favorite: false,
@@ -208,7 +208,7 @@ const pets = [
     color: "Brown",
     specialSkill:
       "Participates in karaoke but does not force others to go out to karaoke.",
-    type: "dog",
+    type: "Dog",
     imageUrl: "https://placedog.net/200",
     favorite: false,
   },
@@ -216,7 +216,7 @@ const pets = [
     name: "Salem",
     color: "Red",
     specialSkill: "Knows the words to 4 rap songs.",
-    type: "cat",
+    type: "Cat",
     imageUrl: "http://placekitten.com/200",
     favorite: false,
   },
@@ -224,7 +224,7 @@ const pets = [
     name: "Bubba",
     color: "Yellow",
     specialSkill: "Cleans himself.",
-    type: "dog",
+    type: "Dog",
     imageUrl:
       "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/11/IMG_1651-600x400.jpg",
     favorite: false,
@@ -233,7 +233,7 @@ const pets = [
     name: "Chloe",
     color: "Green",
     specialSkill: "Admits he is wrong",
-    type: "dino",
+    type: "Dino",
     imageUrl:
       "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg",
     favorite: false,
@@ -242,7 +242,7 @@ const pets = [
     name: "Nala",
     color: "Purple",
     specialSkill: "Dances when he has to.",
-    type: "cat",
+    type: "Cat",
     imageUrl:
       "https://tailandfur.com/wp-content/uploads/2016/03/40-Scary-and-Funny-Cat-Pictures-8.jpg",
     favorite: false,
@@ -252,7 +252,7 @@ const pets = [
     color: "Green",
     specialSkill:
       "Gives hugs with appropriate pressure and for the right length of time.",
-    type: "cat",
+    type: "Cat",
     imageUrl: "http://img.izismile.com/img/img2/20090219/cats_02.jpg",
     favorite: false,
   },
@@ -260,7 +260,7 @@ const pets = [
     name: "Lucy",
     color: "Red",
     specialSkill: "Doesn’t get weirded out by the word “moist.”",
-    type: "dino",
+    type: "Dino",
     imageUrl: "http://placekitten.com/250",
     favorite: false,
   },
@@ -277,8 +277,8 @@ const petModal = () => {
   const domString = `
     <!-- Button trigger modal -->
     <nav>
-    <h1 id="mainH1" class="mainHead">Adopt Today!</h1>
-    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#addPet">
+    <h1 id="mainH1" class="mainHead">Adopt-R-Us</h1>
+    <button type="button" class="adoptBtn btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#addPet">
     List Your Pet
     </button>
     </nav>
@@ -353,12 +353,12 @@ const petModal = () => {
 const filterButtons = () => {
   let domString = `
   <div class="buttons">
-  <button class="btn btn-primary btn-lg buttonRow" id="cat">Cat</button>
-  <button class="btn btn-primary btn-lg buttonRow" id="dog">Dogs</button>
-  <button class="btn btn-primary btn-lg buttonRow" id="dino">Dinos</button>
-  <button class="btn btn-primary btn-lg buttonRow" id="other">Others</button>
-  <button class="btn btn-primary btn-lg buttonRow" id="favorite">Favorites</button>
-  <button class="btn btn-primary btn-lg buttonRow" id="clear">Clear</button>
+  <button class="btn btn-outline-dark btn-lg buttonRow" id="cat">Cat</button>
+  <button class="btn btn-outline-dark btn-lg buttonRow" id="dog">Dogs</button>
+  <button class="btn btn-outline-dark btn-lg buttonRow" id="dino">Dinos</button>
+  <button class="btn btn-outline-dark btn-lg buttonRow" id="other">Others</button>
+  <button class="btn btn-outline-dark btn-lg buttonRow" id="favorite">Favorites</button>
+  <button class="btn btn-outline-dark btn-lg buttonRow" id="clear">Clear</button>
 </div>
   `;
   renderToDom("#btnGroup", domString);
@@ -370,20 +370,20 @@ const petsOnDom = (array) => {
   for (const box of array) {
     domString += `
     <div class="${box.type}Card card mb-3" style="">
-  <div class="card-header"><h4>${box.name}</h4></div>
+  <div class="${box.type}Header card-header"><h5>${box.name} the ${box.color} ${box.type}</h5></div>
   <div class="text-center">
-  <img src="${box.imageUrl}" class="rounded" alt="...">
+  <img src="${box.imageUrl}" class="petImg rounded" alt="...">
 </div>
 
   <div class="card-body text-success">
-    <h5 class="card-title">A ${box.color} ${box.type}</h5>
+    <h5 class="card-title">About Me</h5>
     <p class="card-text">${box.specialSkill}</p>
   </div>
 
   <div class="card-footer">
-  <button type="button" id="adopt--${box.name}" class="btn btn-primary">ADOPT!</button>
-  <button type="button" id="more--${box.name}" class="btn btn-info">More</button>
-  <button type="button" id="remove--${box.name}" class="btn btn-danger">X</button>
+  <button type="button" id="adopt--${box.name}" class="btn btn-outline-primary">Adopt</button>
+  <button type="button" id="more--${box.name}" class="btn btn-outline-primary">More</button>
+  <button type="button" id="remove--${box.name}" class="btn btn-outline-danger">X</button>
   </div>
 </div>`;
   }
