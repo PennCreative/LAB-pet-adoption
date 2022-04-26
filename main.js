@@ -320,10 +320,10 @@ const petModal = () => {
           <div class="form-floating mb-3">
             <select class="form-select form-control-lg" id="type" aria-label="type" required>
               <option value="">Select a Breed</option>
-              <option value="dog">Dog</option>
-              <option value="cat">Cat</option>
-              <option value="dino">Dino</option>
-              <option value="other">Other</option>
+              <option value="Dog">Dog</option>
+              <option value="Cat">Cat</option>
+              <option value="Dino">Dino</option>
+              <option value="Other">Other</option>
             </select>
             <label for="type">type</label>
           </div>
@@ -397,13 +397,13 @@ const eventListeners = () => {
   document.querySelector("#btnGroup").addEventListener("click", (e) => {
     if (e.target.id === "clear") {
       petsOnDom(pets);
-    } else if (e.target.id === "btnGroup") {
+    } else if (e.target.id === "btnGroup".toLowerCase()) {
       petsOnDom(pets);
     } else if (e.target.id === "favorite") {
       const favs = pets.filter((taco) => taco.favorite === true);
       petsOnDom(favs);
     } else if (e.target.id) {
-      const topic = pets.filter((taco) => taco.type === e.target.id);
+      const topic = pets.filter((taco) => taco.type.toLowerCase() === e.target.id);
       console.log(e.target.id);
       petsOnDom(topic);
     }
@@ -439,24 +439,21 @@ console.log(pets);
 document.querySelector("#adoptContainer").addEventListener("click", (e) => {
   if (e.target.id) {
     const [method, name] = e.target.id.split("--");
-    console.log(name);
     const index = pets.findIndex((taco) => taco.name === name);
 
     if (e.target.id.includes("adopt")) {
-      console.log(`You're trying to adopt ${index}`);
-      let result = console.log("Are you ready to take on this responsibility?");
-      if (confirm === true) {
-        pets.pop(index);
+      let result = confirm("Are you ready to take on this responsibility?");
+      if (confirm !== true) {
+        pets.splice(index, 1);
         petsOnDom(pets);
       }
     }
     if (e.target.id.includes("more")) {
-      console.log(`you clicked on a ${index}.color`);
+      console.log(`you clicked on a ${index.color}`);
     }
     if (e.target.id.includes("remove")) {
       console.log(`You're trying to delete ${index}`);
-      // confirm("Are You Sure");
-      pets.splice(index.length - 1, 1);
+      pets.splice(index, 1);
       petsOnDom(pets);
     }
   }
