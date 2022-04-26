@@ -5,7 +5,7 @@ const pets = [
     specialSkill: "Gives sincere apologies.",
     type: "cat",
     imageUrl:
-    "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg",
+      "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg",
     favorite: false,
   },
   {
@@ -15,7 +15,7 @@ const pets = [
       "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
     type: "dino",
     imageUrl:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7gFTwWnpsh5Higt49cnrPzVV2XaealA-GVBZswahODo679UBc_AIi0qAfvSuKOBLCU0&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7gFTwWnpsh5Higt49cnrPzVV2XaealA-GVBZswahODo679UBc_AIi0qAfvSuKOBLCU0&usqp=CAU",
     favorite: false,
   },
   {
@@ -24,7 +24,7 @@ const pets = [
     specialSkill: "Can prove he is a real man by drinking whiskey.",
     type: "dino",
     imageUrl:
-    "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
+      "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
     favorite: false,
   },
   {
@@ -41,7 +41,7 @@ const pets = [
     specialSkill: "Comfortable in the outdoors for up to eight hours.",
     type: "cat",
     imageUrl:
-    "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg",
+      "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg",
     favorite: false,
   },
   {
@@ -50,7 +50,7 @@ const pets = [
     specialSkill: "Can read (but cannot understand) Hebrew.",
     type: "dog",
     imageUrl:
-    "https://upload.wikimedia.org/wikipedia/commons/7/7e/Basset_Hound_600.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7e/Basset_Hound_600.jpg",
     favorite: false,
   },
   {
@@ -59,7 +59,7 @@ const pets = [
     specialSkill: "Able to stop chewing ice or whistling on request.",
     type: "cat",
     imageUrl:
-    "https://i.pinimg.com/originals/9d/da/3e/9dda3e5fd2b9886fc3d13ee47f52e8a0.jpg",
+      "https://i.pinimg.com/originals/9d/da/3e/9dda3e5fd2b9886fc3d13ee47f52e8a0.jpg",
     favorite: false,
   },
   {
@@ -68,7 +68,7 @@ const pets = [
     specialSkill: "Comfortable in the outdoors for up to eight hours.",
     type: "dino",
     imageUrl:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlM87klS3OtmBi8tubHb1FeqIf_b9HjBI5Xw&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlM87klS3OtmBi8tubHb1FeqIf_b9HjBI5Xw&usqp=CAU",
     favorite: false,
   },
   {
@@ -77,7 +77,7 @@ const pets = [
     specialSkill: "Adept at talking self and others out of fights.",
     type: "cat",
     imageUrl:
-    "https://tailandfur.com/wp-content/uploads/2015/09/40-Amazing-Cat-Funny-Moment-Pictures-Feature-Image.jpg",
+      "https://tailandfur.com/wp-content/uploads/2015/09/40-Amazing-Cat-Funny-Moment-Pictures-Feature-Image.jpg",
     favorite: false,
   },
   {
@@ -86,7 +86,7 @@ const pets = [
     specialSkill: "Listens attentively to boring stories.",
     type: "cat",
     imageUrl:
-    "https://i.pinimg.com/originals/04/54/92/0454926d39eeb420f4f01948e94e9e41.jpg",
+      "https://i.pinimg.com/originals/04/54/92/0454926d39eeb420f4f01948e94e9e41.jpg",
     favorite: false,
   },
   {
@@ -95,7 +95,7 @@ const pets = [
     specialSkill: "Can be around food without staring creepily at it.",
     type: "dino",
     imageUrl:
-    "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NyZXRhY2VvdXMtYW5pbWFscy00YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ==",
+      "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NyZXRhY2VvdXMtYW5pbWFscy00YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ==",
     favorite: false,
   },
   {
@@ -104,7 +104,7 @@ const pets = [
     specialSkill: "Does not use excessive acronyms.",
     type: "dog",
     imageUrl:
-    "https://i.pinimg.com/originals/1f/30/8c/1f308c9c108a384b91b39430cc7312e9.jpg",
+      "https://i.pinimg.com/originals/1f/30/8c/1f308c9c108a384b91b39430cc7312e9.jpg",
     favorite: false,
   },
   {
@@ -114,7 +114,7 @@ const pets = [
       "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
     type: "dog",
     imageUrl:
-    "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg",
+      "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg",
     favorite: false,
   },
   {
@@ -123,7 +123,7 @@ const pets = [
     specialSkill: "Always up for dessert.",
     type: "cat",
     imageUrl:
-    "http://3.bp.blogspot.com/-RzIFLsIO-XQ/UFoMLOT66JI/AAAAAAAAVps/JRF98hdA9S8/s640/funny-cat-pictures-016-027.jpg",
+      "http://3.bp.blogspot.com/-RzIFLsIO-XQ/UFoMLOT66JI/AAAAAAAAVps/JRF98hdA9S8/s640/funny-cat-pictures-016-027.jpg",
     favorite: false,
   },
   {
@@ -132,7 +132,7 @@ const pets = [
     specialSkill: "Burps minimally.",
     type: "cat",
     imageUrl:
-    "http://cathumor.net/wp-content/uploads/2013/12/cat-humor-funny-karate-cat-2.jpg",
+      "http://cathumor.net/wp-content/uploads/2013/12/cat-humor-funny-karate-cat-2.jpg",
     favorite: false,
   },
   {
@@ -141,7 +141,7 @@ const pets = [
     specialSkill: "Drives at a safe rate of speed in snow or rain.",
     type: "dino",
     imageUrl:
-    "https://www.screen-idle.com/wp-content/uploads/2020/07/camp-dino-pixa-1-678x381.jpg",
+      "https://www.screen-idle.com/wp-content/uploads/2020/07/camp-dino-pixa-1-678x381.jpg",
     favorite: false,
   },
   {
@@ -159,7 +159,7 @@ const pets = [
     specialSkill: "Proficient in air guitar",
     type: "dino",
     imageUrl:
-    "https://www.si.edu/sites/default/files/styles/social_media/public/newsdesk/press_releases/thumbnail_detail.jpg?itok=C36IoUOR",
+      "https://www.si.edu/sites/default/files/styles/social_media/public/newsdesk/press_releases/thumbnail_detail.jpg?itok=C36IoUOR",
     favorite: false,
   },
   {
@@ -200,7 +200,7 @@ const pets = [
     specialSkill: "Enjoys fine wine.",
     type: "dog",
     imageUrl:
-    "http://1.bp.blogspot.com/-VjM0CmtN-vU/T7YX-LXa09I/AAAAAAAADA0/Vt1oGWEG0lw/s1600/sheepdog+border+collie+shakes+off+water+funny+picture+photo+pulling+faces+raspberry+tongue.jpg",
+      "http://1.bp.blogspot.com/-VjM0CmtN-vU/T7YX-LXa09I/AAAAAAAADA0/Vt1oGWEG0lw/s1600/sheepdog+border+collie+shakes+off+water+funny+picture+photo+pulling+faces+raspberry+tongue.jpg",
     favorite: false,
   },
   {
@@ -226,7 +226,7 @@ const pets = [
     specialSkill: "Cleans himself.",
     type: "dog",
     imageUrl:
-    "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/11/IMG_1651-600x400.jpg",
+      "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/11/IMG_1651-600x400.jpg",
     favorite: false,
   },
   {
@@ -235,7 +235,7 @@ const pets = [
     specialSkill: "Admits he is wrong",
     type: "dino",
     imageUrl:
-    "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg",
+      "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg",
     favorite: false,
   },
   {
@@ -244,7 +244,7 @@ const pets = [
     specialSkill: "Dances when he has to.",
     type: "cat",
     imageUrl:
-    "https://tailandfur.com/wp-content/uploads/2016/03/40-Scary-and-Funny-Cat-Pictures-8.jpg",
+      "https://tailandfur.com/wp-content/uploads/2016/03/40-Scary-and-Funny-Cat-Pictures-8.jpg",
     favorite: false,
   },
   {
@@ -282,7 +282,9 @@ const petModal = () => {
     List Your Pet
     </button>
     </nav>
+
     <!-- Modal -->
+
     <div class="modal fade" id="addPet" tabindex="-1" aria-labelledby="addPet" aria-hidden="true">
       <div class="modal-dialog modal-fullscreen-md-down">
         <div class="modal-content">
@@ -367,16 +369,18 @@ const petsOnDom = (array) => {
 
   for (const box of array) {
     domString += `
-    <div class="card" style="width: 18rem;">
-  <h5 class="card-title">${box.name}</h5>
-  <img src="${box.imageUrl}" class="card-img-top" alt="...">
-  <div class="card-body">
+    <div class="${box.type}Card card mb-3" style="">
+  <div class="card-header"><h4>${box.name}</h4></div>
+  <div class="text-center">
+  <img src="${box.imageUrl}" class="rounded" alt="...">
+</div>
+
+  <div class="card-body text-success">
+    <h5 class="card-title">A ${box.color} ${box.type}</h5>
     <p class="card-text">${box.specialSkill}</p>
   </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">${box.color} ${box.type}</li>
-  </ul>
-  <div class="buttonBody card-body">
+
+  <div class="card-footer">
   <button type="button" id="adopt--${box.name}" class="btn btn-primary">ADOPT!</button>
   <button type="button" id="more--${box.name}" class="btn btn-info">More</button>
   <button type="button" id="remove--${box.name}" class="btn btn-danger">X</button>
@@ -405,33 +409,6 @@ const eventListeners = () => {
     }
   });
 
-  //Adding Buttons to the cards
-  document.querySelector("#adoptContainer").addEventListener("click", (e) => {
-    if (e.target.id) {
-      const [method, name] = e.target.id.split("--");
-
-      const index = pets.findIndex((taco) => taco.name === name);
-
-      if (e.target.id.includes("adopt")) {
-        console.log(`You're trying to adopt ${index}`);
-        let result = confirm("Are you ready to take on this responsibility?");
-        if (confirm === true) {
-          pets.pop(index);
-          petsOnDom(pets);
-        }
-      }
-      if (e.target.id.includes("more")) {
-        console.log("more of this type");
-      }
-      if (e.target.id.includes("remove")) {
-        console.log("delete this animal");
-        confirm("Are You Sure");
-        pets.splice(index, 1);
-        petsOnDom(pets);
-      }
-    }
-  });
-
   const form = document.querySelector("form");
 
   form.addEventListener("submit", (e) => {
@@ -445,17 +422,45 @@ const eventListeners = () => {
       specialSkill: document.querySelector("#about").value,
       type: document.querySelector("#type").value,
       imageUrl: document.querySelector("#imgUrl").value,
-      favorite: document.querySelector('#favorite').checked,
+      favorite: document.querySelector("#favorite").checked,
     };
     // push that object to the data array
-    pets.push(newPetObj);
+    pets.unshift(newPetObj);
     // rerender cards using the cardsOnDom function and pass it the updated data array
     petsOnDom(pets);
     // Close modal and reset form
     formModal.hide();
     form.reset();
+    console.log(pets);
   });
 };
+console.log(pets);
+//Adding Buttons to the cards
+document.querySelector("#adoptContainer").addEventListener("click", (e) => {
+  if (e.target.id) {
+    const [method, name] = e.target.id.split("--");
+    console.log(name);
+    const index = pets.findIndex((taco) => taco.name === name);
+
+    if (e.target.id.includes("adopt")) {
+      console.log(`You're trying to adopt ${index}`);
+      let result = console.log("Are you ready to take on this responsibility?");
+      if (confirm === true) {
+        pets.pop(index);
+        petsOnDom(pets);
+      }
+    }
+    if (e.target.id.includes("more")) {
+      console.log(`you clicked on a ${index}.color`);
+    }
+    if (e.target.id.includes("remove")) {
+      console.log(`You're trying to delete ${index}`);
+      // confirm("Are You Sure");
+      pets.splice(index.length - 1, 1);
+      petsOnDom(pets);
+    }
+  }
+});
 
 //Initializing Application
 const startUp = () => {
