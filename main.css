@@ -1,3 +1,12 @@
+:root{
+  --sky: #BAD7F2;
+  --mint: #BAF2D8;
+  --green: #BAF2BB;
+  --red: #F2BAC9;
+  --yellow: #F2E2BA;
+  --darkRed: #6E4555;
+  --purple: #37123C;
+}
 body{
   display: flex;
   flex-flow: column nowrap;
@@ -14,7 +23,7 @@ nav{
   text-align: center;
 }
 .btn-light{
-  border: 1px solid black;
+  border: 1px solid var(--purple);
 }
 #btnGroup{
   width: 100vw;
@@ -35,30 +44,56 @@ nav{
 }
 
 .card{
+  height: 400px;
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .5rem;
-  border: none;
-  background: aliceblue;
-
+  border: 3px double var(--purple);
+  overflow: hidden;
+  color: var(--darkRed)
 }
-.card-title{
+.card-header{
+  width: 100%;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   text-align: center;
+  border-bottom: 3px double var(--purple);
 }
+.card-header h4{
+  padding-bottom: 0;
+  line-height: 0;
+}
+.dogCard .card-header{
+  width:100%;
+  background: var(--mint);
+}
+.dinoCard .card-header{
+  width:100%;
+  background: var(--red);
+}
+.catCard .card-header{
+  width:100%;
+  background: var(--yellow);
+}
+.otherCard .card-header{
+  width:100%;
+  background: var(--green);
+}
+
 .card img{
   height: auto;
-  width: 75%;
+  width: 80%;
   overflow: hidden;
 }
-.card ul{
-  background: aliceblue;
+.card-body{
+  margin: auto;
 }
-.buttonBody{
+.card-footer{
   width: 100%;
   display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-between;
-  background: lightgoldenrodyellow;
+  justify-content: space-around;
+  background: transparent;
 }
