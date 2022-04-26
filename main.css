@@ -68,6 +68,7 @@ nav{
   text-align: justify;
   align-items: center;
   border-bottom: 1px solid var(--purple);
+  
 }
 .card-header h5{
   padding: 0;
